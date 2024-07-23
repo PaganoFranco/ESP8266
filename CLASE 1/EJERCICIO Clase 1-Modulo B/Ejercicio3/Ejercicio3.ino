@@ -11,7 +11,6 @@ void setup() {
   pinMode(PULSADOR_1, INPUT);
 }
 
-// Implementacion de ciclo FOR
 void loop() {
   //Como el pulsador manda un estado bajo al ser pusaldor, su programacion sera: 
   if(digitalRead(PULSADOR_1) == LOW){
